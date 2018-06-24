@@ -48,23 +48,24 @@ export default class Categories extends React.Component {
     };
     this.onMouseOver = this.onMouseOver.bind(this);
   }
-  onMouseOver() {
-    this.setState({
-      url: '../../images/architektura/pexels-photo-261187.jpeg',
-    });
+  onMouseOver() {       
+    this.setState((props) => ({      
+    //url: '../../images/architektura/pexels-photo-261187.jpeg',     
+    url: this.props.src
+    }));
   }
   render() {
     return (
       <div>
-        <Header>
-          <BgImage src={this.state.url} />;
+        <Header>          
+          <BgImage src={this.state.url} />
         </Header>
         <Container>
           <Row>
             {Data.map(item => {
               return (
                 <Col s={3}>
-                  <ImgContainer onMouseOver={this.onMouseOver}>
+                  <ImgContainer onMouseOver={this.onMouseOver} src={item.categoryImage}>
                     <Link to={`/category/${item.url}`}>
                       <Image src={item.categoryImage} />
                       <CategoryText txt={item.name} />
