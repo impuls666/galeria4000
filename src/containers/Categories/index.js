@@ -19,6 +19,18 @@ const CatText = styled.span`
   color: #555555;
 `;
 
+const CatText2 = styled.span`
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: block;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  color: #aaa;
+`;
+
 const BgImage = styled.div`
   background: url(${props => props.src});
   opacity: 0.75;
@@ -36,8 +48,13 @@ const BgImage = styled.div`
 `;
 
 const CategoryText = props => {
-  const { txt } = props;
-  return <CatText>{txt}</CatText>;
+  const { txt, pocet } = props;
+  if (props.txt) {
+    return <CatText>{txt}</CatText>;
+  }
+  if (props.pocet) {
+    return <CatText2>{pocet} fotky</CatText2>;
+  }
 };
 
 export default class Categories extends React.Component {
@@ -69,6 +86,7 @@ export default class Categories extends React.Component {
                     <Link to={`/category/${item.url}`}>
                       <Image src={item.categoryImage} />
                       <CategoryText txt={item.name} />
+                      <CategoryText pocet={item.subimages.length} />
                     </Link>
                   </ImgContainer>
                 </Col>
