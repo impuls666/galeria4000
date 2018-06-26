@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import { Route } from 'react-router';
 import { rem } from 'polished';
+import Gallery from '../Gallery';
 import Categories from '../Categories';
 
 import theme from '../../theme';
@@ -20,6 +21,7 @@ class App extends PureComponent {
           <Body>
             <Wrapper>
               <Route exact path="/" component={Categories} />
+              <Route path="/category/:categoryName" component={Gallery} />
             </Wrapper>
           </Body>
         </BrowserRouter>

@@ -37,3 +37,44 @@ export const ImgContainer = styled.div`
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
   }
 `;
+
+export const CatText = styled.span`
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: block;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  color: #555555;
+`;
+
+export const CatText2 = styled.span`
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: block;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  color: #aaa;
+`;
+
+export const BgImage = styled.div`
+  background: url(${props => props.src});
+  opacity: 0.75;
+  background-size: cover;
+  background-position: 50% 60%;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  z-index: 0;
+  /*   -webkit-filter: blur(4px); */
+  -webkit-animation: blurred-bg 2s 1 forwards;
+  box-sizing: border-box;
+`;

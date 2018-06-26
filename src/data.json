@@ -5,12 +5,7 @@
     "url": "priroda",
     "categoryImage":
       "/images/priroda/landscape-meadow-field-mountains-66874.jpeg",
-    "subimages": [
-      "https://images.pexels.com/photos/288621/pexels-photo-288621.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/631292/pexels-photo-631292.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/374825/pexels-photo-374825.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/60692/bird-animal-nature-strauss-60692.jpeg?auto=compress&cs=tinysrgb&h=350"
-    ]
+    "subimages": ["/images/priroda/landscape-meadow-field-mountains-66874.jpeg"]
   },
   {
     "id": 2,
@@ -18,10 +13,12 @@
     "url": "architektura",
     "categoryImage": "/images/architektura/pexels-photo-261187.jpeg",
     "subimages": [
-      "https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/280490/pexels-photo-280490.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "/images/architektura/pexels-photo-261187.jpeg",
+      "/images/architektura/pexels-photo-186077.jpeg",
+      "/images/architektura/pexels-photo-221506.jpeg",
+      "/images/architektura/pexels-photo-261146.jpeg",
+      "/images/architektura/pexels-photo-261187.jpeg",
+      "/images/architektura/pexels-photo-323780.jpeg"
     ]
   },
   {
@@ -29,35 +26,20 @@
     "name": "ľudia",
     "url": "ludia",
     "categoryImage": "/images/ludia/pexels-photo-27411.jpg",
-    "subimages": [
-      "https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/280490/pexels-photo-280490.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&h=350"
-    ]
+    "subimages": ["/images/ludia/pexels-photo-27411.jpg"]
   },
   {
     "id": 4,
     "name": "jedlo",
     "url": "jedlo",
     "categoryImage": "/images/jedlo/food-salad-healthy-lunch.jpg",
-    "subimages": [
-      "https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/280490/pexels-photo-280490.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&h=350"
-    ]
+    "subimages": ["/images/jedlo/food-salad-healthy-lunch.jpg"]
   },
   {
     "id": 5,
     "name": "autá",
     "url": "auta",
     "categoryImage": "/images/auta/pexels-photo-210019.jpeg",
-    "subimages": [
-      "https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/280490/pexels-photo-280490.jpeg?auto=compress&cs=tinysrgb&h=350",
-      "https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&h=350"
-    ]
+    "subimages": ["/images/auta/pexels-photo-210019.jpeg"]
   }
 ]
