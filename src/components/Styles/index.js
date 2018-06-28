@@ -78,3 +78,15 @@ export const BgImage = styled.div`
   -webkit-animation: blurred-bg 2s 1 forwards;
   box-sizing: border-box;
 `;
+
+export const Header1 = styled.h1`
+  color: #fff;
+  transform: translate(10px, 150px);
+`;
+
+export const Header2 = styled.h2`
+  color: #fff;
+  transform: translate(10px, 170px);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+`;

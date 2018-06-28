@@ -8,6 +8,8 @@ import {
   ImgContainer,
   Header,
   BgImage,
+  Header1,
+  Header2,
 } from '../../components/Styles';
 
 class Gallery extends PureComponent {
@@ -21,6 +23,12 @@ class Gallery extends PureComponent {
           {match.map(item => {
             return <BgImage src={item.subimages[0]} />;
           })}
+          <Container>
+            <Header1>FOTOGALÉRIA</Header1>
+            {match.map(item => {
+              return <Header2>{item.name}</Header2>;
+            })}
+          </Container>
         </Header>
         <Container>
           <Row>

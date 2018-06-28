@@ -11,6 +11,8 @@ import {
   BgImage,
   CatText,
   CatText2,
+  Header1,
+  Header2,
 } from '../../components/Styles';
 
 const CategoryText = props => {
@@ -36,6 +38,10 @@ export default class Categories extends React.Component {
       <div>
         <Header>
           <BgImage src={this.state.url} />
+          <Container>
+            <Header1>FOTOGALÉRIA</Header1>
+            <Header2>KATEGÓRIE</Header2>
+          </Container>
         </Header>
         <Container>
           <Row>
